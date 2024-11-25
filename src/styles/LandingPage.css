@@ -1,0 +1,134 @@
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xl);
+    background-color: var(--color-white);
+    gap: 2.843rem;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--small-text);
+  }
+  
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-image: url(/public/AccessibleCity.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-width: 75rem;
+    min-height: 68.25rem;
+    padding: var(--padding-5xl);
+  }
+  
+  .image {
+    height: 14.625rem;
+    width: 14.625rem;
+    position: relative;
+    object-fit: cover;
+    margin: 0px auto;
+  }
+  
+  .safeSnap {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    z-index: 1;
+    font-size:20px;
+    margin: 20px;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-9xs);
+    min-width: 30.063rem;
+    max-width: 100%;
+    padding: var(--padding-11xs) 0 0;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  
+  .textContainer {
+    font-size: var(--small-text-size);
+    font-weight: bolder;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .link {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .imageContainer {
+      min-height: auto;
+    }
+    .intro {
+      flex-wrap: wrap;
+      padding: var(--padding-xl);
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .imageContainer,
+    .content {
+      min-width: 100%;
+    }
+    .intro {
+      gap: var(--gap-4xl);
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .safeSnap {
+      font-size: var(--small-text-size);
+      line-height: 1.5rem;
+    }
+    .title {
+      font-size: var(--font-size-lgi);
+      line-height: 1.813rem;
+    }
+  }
+
+  ul{
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 10px; /* add spacing between items */
+    padding: 15px;
+    color:#D3D3D3;
+    font-weight: bolder;
+    font-size:24px;
+    border-radius : 8px;
+    z-index: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow effect */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  li:hover {
+    background-color: #f8f9fa;
+    color: orange;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }

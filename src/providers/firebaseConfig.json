@@ -1,0 +1,9 @@
+{
+  "apiKey": "Your API key here",
+  "authDomain": "iceslip1.firebaseapp.com",
+  "databaseURL": "",
+  "projectId": "iceslip1",
+  "storageBucket": "iceslip1.appspot.com",
+  "messagingSenderId": "293062201412",
+  "appId": "1:293062201412:web:38410d7fcba165d4622c11"
+}

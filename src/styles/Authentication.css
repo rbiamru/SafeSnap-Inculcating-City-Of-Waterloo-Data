@@ -1,0 +1,462 @@
+.safeSnap {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .frameChild,
+  .image3Icon {
+    position: absolute;
+    display: none;
+  }
+  .image3Icon {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .frameChild {
+    top: 21.75rem;
+    left: 19.688rem;
+    width: 6.25rem;
+    height: 6.25rem;
+    overflow: hidden;
+  }
+  .image3Parent {
+    height: 41.875rem;
+    flex: 1;
+    position: relative;
+    background-image: url(/public/images/image-31@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-width: 29.625rem;
+    max-width: 100%;
+  }
+  .button,
+  .postPictureWithout {
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .postPictureWithout {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .button {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-xl);
+  }
+  .signInAccount {
+    margin: 0;
+    width: 11rem;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 600;
+    font-family: var(--small-text);
+    color: var(--color-black);
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .signInEmail {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 3.437rem;
+  }
+  .enterYourEmail {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--small-text-size);
+    line-height: 150%;
+    font-family: var(--small-text);
+    color: var(--color-black);
+    text-align: center;
+    white-space: nowrap;
+  }
+  .emailInput,
+  .emailLabel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .emailLabel {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-9xs);
+  }
+  .emailInput {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 3.562rem;
+  }
+  .frameItem {
+    align-self: stretch;
+    height: 0.063rem;
+    position: relative;
+    background-color: var(--color-gainsboro-100);
+  }
+  .separatorInner {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xs-5) 0 0;
+    box-sizing: border-box;
+    min-width: 5.25rem;
+  }
+  .orContinueWith {
+    width: 7.688rem;
+    position: relative;
+    font-size: var(--small-text-size);
+    line-height: 150%;
+    font-family: var(--small-text);
+    color: var(--color-gray-200);
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .frameInner {
+    align-self: stretch;
+    height: 0.063rem;
+    position: relative;
+    background-color: var(--color-gainsboro-100);
+  }
+  .separator,
+  .separatorChild {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .separatorChild {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-xs-5) 0 0;
+    box-sizing: border-box;
+    min-width: 5.25rem;
+  }
+  .separator {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-5xs);
+  }
+  .googleIcon1 {
+    width: 1.25rem;
+    height: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .googleIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) 0 0;
+  }
+  .secondary {
+    position: relative;
+    font-size: var(--small-text-size);
+    line-height: 150%;
+    font-weight: 500;
+    font-family: var(--small-text);
+    color: var(--color-black);
+    text-align: left;
+    white-space: nowrap;
+  }
+  .button1 {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) 0.875rem;
+    gap: 8.656rem;
+  }
+  .byClickingContinue {
+    color: var(--color-gray-200);
+  }
+  .termsOfService {
+    color: var(--color-black);
+  }
+  .and {
+    color: var(--color-gray-200);
+  }
+  .privacyPolicy {
+    color: var(--color-black);
+  }
+  .byClickingContinueContainer,
+  .register {
+    position: relative;
+    font-size: var(--small-text-size);
+    line-height: 150%;
+    font-family: var(--small-text);
+  }
+  .byClickingContinueContainer {
+    align-self: stretch;
+    text-align: center;
+  }
+  .register {
+    font-weight: 500;
+    color: var(--color-white);
+    text-align: left;
+    white-space: nowrap;
+  }
+  .button2,
+  .registerLink {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .button2 {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-black);
+    justify-content: flex-start;
+    padding: 0.406rem var(--padding-49xl);
+    cursor: pointer;
+  }
+  .registerLink {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-11xl);
+  }
+  .signInForm,
+  .terms {
+    align-self: stretch;
+    justify-content: flex-start;
+  }
+  .terms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.562rem;
+  }
+  .signInForm {
+    margin: 0;
+    gap: var(--gap-5xl);
+  }
+  .signInContent,
+  .signInContentWrapper,
+  .signInForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .signInContent {
+    align-self: stretch;
+    justify-content: flex-start;
+    gap: 3.687rem;
+  }
+  .signInContentWrapper {
+    width: 25rem;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-base);
+    box-sizing: border-box;
+    min-width: 25rem;
+    max-width: 100%;
+  }
+  .frameParent {
+    width: 75.188rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 4.562rem;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--small-text-size);
+    color: var(--color-white);
+    font-family: var(--small-text);
+  }
+  .auth,
+  .authInner {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .authInner {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 var(--padding-49xl);
+    max-width: 100%;
+  }
+  .auth {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-5xl) var(--padding-5xl) 11rem;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--small-text);
+  }
+  @media screen and (max-width: 1200px) {
+    .signInContentWrapper {
+      flex: 1;
+    }
+    .frameParent {
+      flex-wrap: wrap;
+    }
+    .authInner {
+      padding-left: var(--padding-15xl);
+      padding-right: var(--padding-15xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .image3Parent,
+    .signInContentWrapper {
+      min-width: 100%;
+    }
+    .frameParent {
+      gap: 2.25rem;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .safeSnap {
+      font-size: var(--small-text-size);
+      line-height: 1.5rem;
+    }
+    .signInAccount {
+      font-size: var(--font-size-lgi);
+      line-height: 1.813rem;
+    }
+    .emailInput,
+    .signInEmail {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .separator {
+      flex-wrap: wrap;
+    }
+    .signInContent {
+      gap: var(--gap-10xl);
+    }
+    .frameParent {
+      gap: 1.125rem;
+    }
+  }
+  
+  
+  
+  .field {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    align-self: stretch;
+    height: 2.5rem;
+    font-family: var(--small-text);
+    font-weight: 500;
+    font-size: var(--font-size-xl);
+    color: var(--color-gray-200);
+  }
+  .signInWith {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .button,
+  .inputAndButton {
+    color:white;
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .button {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-black);
+    flex-direction: row;
+    padding: var(--padding-5xs) var(--padding-44xl);
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .inputAndButton {
+    flex-direction: column;
+    gap: var(--gap-base);
+    text-align: left;
+    font-size: var(--small-text-size);
+    color: var(--color-white);
+    font-family: var(--small-text);
+  }
+  @media screen and (max-width: 450px) {
+    .button {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+
+  main{
+    align-self: center;
+  }
+
+  .btnEffect{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow effect */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .boxEffect{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow effect */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .inputField{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .formBtn {
+    display: inline-block;
+    margin: 10px; /* add spacing between items */
+    padding: 10px;
+    width:100%;
+    color:#fff;
+    background-color: #000;
+    border-radius : 5px;
+    z-index: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow effect */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .formBtn:hover {
+    background-color: #f8f9fa;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+
+
+
+  

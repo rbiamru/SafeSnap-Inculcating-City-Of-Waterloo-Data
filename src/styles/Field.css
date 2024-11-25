@@ -1,0 +1,10 @@
+.field {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 2.5rem;
+  font-family: var(--small-text);
+  font-weight: 500;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+}
