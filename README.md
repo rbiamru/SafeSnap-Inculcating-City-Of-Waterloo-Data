@@ -9,7 +9,7 @@
   3) Run `npm start` to view project in browser
   
   ## Google Maps API 
-  Api key: AIzaSyCJ36K272dZlTaaK_SYV5nP9S8QUR10dAY
+  Api key
 
   1) In package.json added scripts{
     "dev":"vite"
