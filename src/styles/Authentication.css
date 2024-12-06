@@ -7,7 +7,7 @@
   }
   .frameChild,
   .image3Icon {
-    position: absolute;
+    position: relative;
     display: none;
   }
   .image3Icon {
