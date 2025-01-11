@@ -3,6 +3,7 @@
 
   ## Figma Prototype 
   You can view the Figma prototype [here](https://www.figma.com/proto/QPdgKwKOSik9ONbSeVCpyy/SafeSnap-(Community)-(Copy)?node-id=6206-65&starting-point-node-id=6206%3A65&t=2BVEmUqm5PZ0bW8o-1).
+  
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
   To preview and run the project on your device:
