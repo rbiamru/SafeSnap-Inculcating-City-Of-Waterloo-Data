@@ -27,3 +27,4 @@
 
 ![image](https://github.com/user-attachments/assets/e519d9b3-9b1a-413e-b423-ca71a7469acd)        ![image](https://github.com/user-attachments/assets/7d825b18-7a45-49eb-ab2f-3b83e2c14daf)
 
+Have I day dreamed building a redundant community place in my Web App. I should leverage using *Facebook connect.
